@@ -1,0 +1,22 @@
+name:                Ray-Okay
+version:             1.0.0.0
+-- synopsis:            
+-- description:         
+-- license:             
+author:              Uwila & Ivogabe (Ivo Gabe de Wolff)
+maintainer:          mail@uwila.nl
+-- copyright:           
+category:            Game
+build-type:          Simple
+extra-source-files:  readme.txt
+cabal-version:       >=1.10
+
+executable Ray-Okay
+  main-is:             Main.hs
+  other-modules:       Algebra, Tracer, World
+  -- other-extensions:
+  build-depends:       base >=4.8, gloss>=1.10.2.5, bytestring>=0.10 && <0.11, deepseq>=1.4&&<1.5
+  hs-source-dirs:      src
+  default-language:    Haskell2010
+  default-extensions:  BangPatterns
+  ghc-options: -O3
