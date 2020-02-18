@@ -1,6 +1,8 @@
 # Ray-Okay
 A quite simple Haskell raytracer written using the Gloss library.
 
+By [Uwila](https://github.com/Uwila/) and [Ivo Gabe de Wolff](https://github.com/ivogabe) (only one of the authors is in the git history because it was squashed to remove some personal info). 
+
 ## Building
 You can build the program using Cabal (part of the Haskell platform). In the root folder run 
 
